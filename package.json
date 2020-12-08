@@ -1,0 +1,23 @@
+{
+  "name": "test_boatyardx",
+  "version": "1.0.0",
+  "description": "test for bootyardx interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octavian-drutza/test_boatyardx.git"
+  },
+  "author": "O. Druta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octavian-drutza/test_boatyardx/issues"
+  },
+  "homepage": "https://github.com/octavian-drutza/test_boatyardx#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
+}
