@@ -46,7 +46,7 @@ export function teamsPagination() {
       }
       changePageNumber(pageNr.id, pageNr);
       nextPrevious(pageNr.id);
-      console.log(paginationCurrent);
+      /* console.log(paginationCurrent); */
     });
   });
 }

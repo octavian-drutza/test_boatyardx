@@ -12,7 +12,7 @@ export function getData() {
     })
     .then(function (data) {
       teamsList = data.teams;
-      console.log(teamsList);
+      /* console.log(teamsList); */
     });
 }
 
