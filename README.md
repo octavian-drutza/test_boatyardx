@@ -2,6 +2,7 @@
 
 test project for boatyardx interview
 
-clone repository &&
-
-"npm run start" to run project
+instructions:
+1. install npm packages with `npm install`
+2. run with `npm start`
+* The app will run on localhost under port 8080
