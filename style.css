@@ -9,6 +9,10 @@
   padding-top: 20px;
 }
 
+.content {
+  margin-bottom: 50px;
+}
+
 #column {
   display: flex;
   align-content: center;

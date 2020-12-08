@@ -17,6 +17,7 @@ let homePage = document.getElementById("home");
 let teamsPage = document.getElementById("teams");
 let teamsDetails = document.getElementById("teamDet");
 let backbtn = document.getElementById("back-home");
+let brand = document.querySelector(".navbar-brand");
 let paginationState = false;
 let paginationNumbers = false;
 let lang = "EN";
@@ -33,9 +34,10 @@ let dictionaryEN = {
   about: "About",
   previous: "Previous",
   next: "Next",
+  title: "England Leauge",
 };
 let dictionaryES = {
-  home: "Home",
+  home: "Pagina Principal",
   teams: "Los Equipos",
   teamDet: "Detalles del Equipo",
   capacity: "Capacidad",
@@ -46,6 +48,7 @@ let dictionaryES = {
   about: "Acerca de",
   previous: "Previo",
   next: "Próximo",
+  title: "Liga de Inglaterra",
 };
 let dictionary = dictionaryEN;
 
@@ -60,6 +63,7 @@ function langMenu() {
   homePage.innerText = dictionary.home;
   teamsPage.innerText = dictionary.teams;
   teamsDetails.innerText = dictionary.teamDet;
+  brand.innerText = dictionary.title;
 }
 
 function navigation() {
