@@ -1,6 +1,6 @@
 # test_boatyardx
 
-test project for boatyard interview
+test project for boatyardx interview
 
 clone repository &&
 
